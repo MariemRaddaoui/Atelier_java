@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice2</title>
+</head>
+
+<body>
+    <p id="test">TEST</p>
+    <div>
+        <input id="color_select" type="color" value="#AAAAAA" onchange=change_color() style="width: 30%;">
+        <input id="size_number" type="number" value="15" min="5" max="50" onchange=change_size() style="width: 30%;">
+        <select onchange=change_font() style="width: 30%;">
+            <option value="garamond" >garamond</option>
+            <option value="verdana" >verdana</option>
+            <option value="times new roman" >times new roman</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
